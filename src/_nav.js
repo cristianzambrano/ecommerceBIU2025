@@ -49,6 +49,12 @@ const _nav = [
     to: '/productos-api-filtros',
     icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
   },
+  {
+    component: CNavItem,
+    name: 'Productos API CRUD',
+    to: '/productos-api-crud',
+    icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
+  },
 ]
 
 export default _nav

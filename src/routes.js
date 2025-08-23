@@ -5,12 +5,14 @@ const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Productos = React.lazy(() => import('./views/productos/Productos'))
 const ProductosAPI = React.lazy(() => import('./views/productos/Productos2'))
 const ProductosAPIFiltros = React.lazy(() => import('./views/productos/Productos3'))
+const ProductosAPICRUD = React.lazy(() => import('./views/productos/Productos4'))
 
 const routes = [
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   { path: '/productos', name: 'Productos', element: Productos },
   { path: '/productos-api', name: 'Productos API', element: ProductosAPI },
   { path: '/productos-api-filtros', name: 'Productos API Filtros', element: ProductosAPIFiltros },
+  { path: '/productos-api-crud', name: 'Productos API CRUD', element: ProductosAPICRUD },
 ]
 
 export default routes
