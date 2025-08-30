@@ -21,7 +21,7 @@ const Productos = () => {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:3002/productos')
+    fetch('http://localhost:3001/productos')
       .then((res) => {
         if (!res.ok) throw new Error(`Error ${res.status}: ${res.statusText}`)
         return res.json()

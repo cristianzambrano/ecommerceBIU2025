@@ -14,7 +14,6 @@ import {
 const ProductoModal = ({ visible, onClose, onSave, form, setForm, editingProduct }) => {
   const [errors, setErrors] = useState({})
 
-  // Validación simple
   const validate = () => {
     let newErrors = {}
 
